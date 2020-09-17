@@ -1,0 +1,129 @@
+.swiper-container {
+  padding: 5rem 5rem 0 5rem !important;
+  /* height: 550px; */
+  height: 95vh;
+  width: 90vw;
+  transform: translateY(-5%);
+}
+.swiper-wrapper {
+  list-style: none;
+  /* padding: 0; */
+  align-items: center;
+  left: -3.5%;
+  /* height: 50%; */
+}
+.swiper-slide {
+    opacity: .6;
+    width: 280px;
+    height: 250px!important;
+    border-radius: 24px;
+    overflow: hidden;
+    position: relative;
+}
+/* .swiper-slide::after{
+    content: '';
+    position: absolute;
+    top:0;
+    left: 100%;
+    height: 100%;
+    width: 100%;
+    box-shadow: 0px 0px 39px 54px rgba(255, 255, 255);
+}
+.swiper-slide::before{
+    content: '';
+    position: absolute;
+    top:0;
+    left: -80%;
+    height: 100%;
+    width: 100%;
+    box-shadow: 0px 0px 39px 54px rgba(255, 255, 255);
+    height: 100%;
+    width: 100%;
+} */
+.swiper-slide .card {
+    width: 100%;
+    height: 100%;
+    border-radius: 24px;
+}
+.swiper-slide-active {
+  /* transform: scale(1.2); */
+  transform: scale(1.5);
+
+  opacity: 1;
+  /* transform: translateX(5px); */
+  transition: all 1s;
+  /* left: 15px; */
+  overflow: visible;
+    -webkit-box-shadow: 0px 0px 22px -12px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 22px -12px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 22px -12px rgba(0, 0, 0, 0.75);
+}
+.swiper-slide-active .card_text{
+  width: 200%;
+  position: absolute;
+  top: 75%;
+  left: -50%;
+  animation: fade 1.5s linear ;
+   transform: translateY(50px); 
+}
+.card_text{
+  text-align: center;
+  position: absolute;
+  /* transition: 1s; */
+}
+@keyframes fade{
+  0%{
+    opacity: 0;
+  }
+  50%{
+    opacity: .5;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+.swiper-button-prev{
+color: black!important;
+}
+.swiper-button-next{
+  color: black!important;
+  }
+@media screen and (max-width:1024px){
+  .swiper-slide-active .card_text{
+    font-size: .8rem;
+    left: -55%;
+    margin: 1rem;
+  }
+}
+
+  @media screen and (max-width:768px){
+    .swiper-container{
+      width: 90vw;
+      height: 600px;
+    }
+    .swiper-slide-active{
+      transform: scale(1.2);
+    }
+    .swiper-slide{
+      width: 300px;
+    }
+ 
+  }
+  @media screen and (max-width:450px){
+    .swiper-container{
+      width: 100vw;
+    }
+    .swiper-slide-active{
+      width: 100vw;
+    }
+    .swiper-wrapper{
+      left: -15%;
+    }
+    .swiper-slide-active .card_text{
+      width: 100vw;
+      font-size: .8rem;
+      left: -45%;
+      margin: 1rem;
+    }
+  }
