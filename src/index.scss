@@ -18,3 +18,8 @@ code {
 section {
   margin: 3rem;
 }
+@media screen and (max-width: 576px) {
+  section {
+    margin: 0.5rem;
+  }
+}

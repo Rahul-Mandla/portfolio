@@ -11,7 +11,7 @@ const About = () => (
         </Col>
       </Row>
       <Row>
-        <Col md={7} className="mt-5">
+        <Col sm={12} lg={7} className="mt-5 justify-content-center">
           <p className="bio">
             hey there, i'm prabhjot singh. <br />
             i'm a freelance graphic designer.
