@@ -1,20 +1,20 @@
 import React from "react";
+import { Route, Switch } from "react-router-dom";
 import "./App.scss";
-import { Container, Row, Col } from "react-bootstrap";
 import AppNavbar from "./components/navbar/navbar";
 import Home from "./containers/home/home";
 import Portfolio from "./containers/portfolio/portfolio";
 import About from "./containers/about/about";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <AppNavbar />
-      </header>
-      {/* <Home/> */}
-      {/* <About/> */}
-      <Portfolio />
-    </div>
+    <React.Fragment>
+      <AppNavbar />
+      <Switch>
+        <Route path="/about" component={About} />
+        <Route path="/portfolio" component={Portfolio} />
+        <Route path="/" exact component={Home} />
+      </Switch>
+    </React.Fragment>
   );
 }
 

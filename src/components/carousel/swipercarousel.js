@@ -33,67 +33,82 @@ const SwiperCarousel = () => {
         initialSlide={1}
         center
         breakpoints={{
-            350 :{
-                slidesPerView:1,
-                centeredSlides:true,
-                spaceBetween:50
-            },
-            650: {
-                slidesPerView: 2,
-              },
+          350: {
+            slidesPerView: 1,
+            centeredSlides: true,
+            spaceBetween: 20,
+          },
+          650: {
+            slidesPerView: 3,
+            spaceBetween: 50,
+            centeredSlides: true,
+          },
           768: {
             slidesPerView: 3,
             centeredSlides: true,
-            centeredSlidesBounds: true,
-            spaceBetween: 120
+            spaceBetween: 100,
           },
         }}
       >
         <SwiperSlide tag="li">
           <Card
-          cardimage={cr1} 
-          cardtxt={{
-            quote:"you only live once, but if you do it right, once is enough",
-            author:"mae west"
-        }}/>
+            cardimage={cr1}
+            cardtxt={{
+              quote:
+                "you only live once, but if you do it right, once is enough",
+              author: "mae west",
+            }}
+          />
         </SwiperSlide>
         <SwiperSlide tag="li">
           <Card
-          cardimage={cr2} 
-          cardtxt={{
-              quote:"you only live once, but if you do it right, once is enough",
-              author:"mae west"
-          }}/>
+            cardimage={cr2}
+            cardtxt={{
+              quote:
+                "you only live once, but if you do it right, once is enough",
+              author: "mae west",
+            }}
+          />
         </SwiperSlide>
         <SwiperSlide tag="li">
-          <Card 
-          cardimage={cr3}
-          cardtxt={{
-            quote:"you only live once, but if you do it right, once is enough",
-            author:"mae west"
-        }}/>
+          <Card
+            cardimage={cr3}
+            cardtxt={{
+              quote:
+                "you only live once, but if you do it right, once is enough",
+              author: "mae west",
+            }}
+          />
         </SwiperSlide>
         <SwiperSlide tag="li">
-          <Card 
-          cardimage={cr4}
-          cardtxt={{
-            quote:"you only live once, but if you do it right, once is enough",
-            author:"mae west"
-        }}/>
-        </SwiperSlide><SwiperSlide tag="li">
-          <Card 
-          cardimage={cr5}
-          cardtxt={{
-            quote:"you only live once, but if you do it right, once is enough",
-            author:"mae west"
-        }}/>
-        </SwiperSlide><SwiperSlide tag="li">
-          <Card 
-          cardimage={cr6}
-          cardtxt={{
-            quote:"you only live once, but if you do it right, once is enough",
-            author:"mae west"
-        }}/>
+          <Card
+            cardimage={cr4}
+            cardtxt={{
+              quote:
+                "you only live once, but if you do it right, once is enough",
+              author: "mae west",
+            }}
+          />
+        </SwiperSlide>
+        <SwiperSlide tag="li">
+          <Card
+            cardimage={cr5}
+            cardtxt={{
+              quote:
+                "you only live once, but if you do it right, once is enough",
+              author: "mae west",
+            }}
+          />
+        </SwiperSlide>
+        <SwiperSlide tag="li">
+          <Card
+            cardimage={cr6}
+            cardtxt={{
+              quote:
+                "you only live once, but if you do it right, once is enough",
+              author: "mae west",
+            }}
+          />
         </SwiperSlide>
       </Swiper>
     </React.Fragment>

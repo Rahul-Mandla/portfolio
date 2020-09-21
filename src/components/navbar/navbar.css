@@ -4,19 +4,25 @@
   justify-content: space-around;
   border: 1px solid black;
   border-radius: 24px;
-  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  /* opacity: 0.9; */
   padding: 0;
   font-weight: 700;
   letter-spacing: 2px;
   /* line-height: 1rem; */
   width: 100%;
-  /* position:fixed; */
+  position: sticky;
   z-index: 2;
   text-transform: capitalize;
+  margin-top: 1rem;
+  margin-bottom: auto;
+}
+.nav-link {
+  color: black;
 }
 .nav_logo {
   /* height: 1rem; */
-  transform: scale(1.2);
+  transform: scale(1.35);
   margin: 0 !important;
 }
 .nav-link .active {

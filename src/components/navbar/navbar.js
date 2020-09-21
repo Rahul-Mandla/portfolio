@@ -14,15 +14,15 @@
 //            </ul>
 //     </React.Fragment>
 // );
-
 // export default Navbar;
 
 import React from "react";
+import { Navlink, Link } from "react-router-dom";
 import { Navbar, Nav } from "react-bootstrap";
 import "./navbar.css";
 const AppNavbar = () => (
   <React.Fragment>
-    <Navbar className="navbar " bg="light" expand="md">
+    <Navbar fixed="top" className="navbar " bg="light" expand="md">
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav
@@ -30,27 +30,29 @@ const AppNavbar = () => (
           as="ul"
           className="d-flex justify-content-around w-100 p-0"
         >
-          <Nav.Link as="li" href="#home">
-            Home
-          </Nav.Link>
-          <Nav.Link as="li" href="#portfolio">
-            Portfolio
-          </Nav.Link>
-          <Navbar.Brand className="nav_logo" href="#home">
-            <img
-              src={require("../../assets/pr11.png")}
-              width="30"
-              height="30"
-              className="d-inline-block align-top"
-              alt="React Bootstrap logo"
-            />
-          </Navbar.Brand>
-          <Nav.Link as="li" href="#packs">
-            packs
-          </Nav.Link>
-          <Nav.Link as="li" href="#about">
-            About me
-          </Nav.Link>
+          <Link to="/">
+            <Nav.Link as="li">Home</Nav.Link>
+          </Link>
+          <Link to="/Portfolio">
+            <Nav.Link as="li">Portfolio</Nav.Link>
+          </Link>
+          <Link to="/">
+            <Navbar.Brand className="nav_logo">
+              <img
+                src={require("../../assets/pr12.png")}
+                width="30"
+                height="30"
+                className="d-inline-block align-top nav_logo"
+                alt="React Bootstrap logo"
+              />
+            </Navbar.Brand>
+          </Link>
+          <Link to="/packs">
+            <Nav.Link as="li">packs</Nav.Link>
+          </Link>
+          <Link to="/about">
+            <Nav.Link as="li">About me</Nav.Link>
+          </Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
