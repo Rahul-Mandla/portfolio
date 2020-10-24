@@ -81,7 +81,7 @@
     /* height: 600px; */
   }
   .swiper-wrapper {
-    left: 0;
+    left: -10%;
   }
   .swiper-slide-active {
     transform: scale(1.1);
