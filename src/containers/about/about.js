@@ -23,7 +23,7 @@ const About = () => (
               <img src={require("../../assets/svg/photoshop.svg")} />
               <img src={require("../../assets/svg/after-effect.svg")} />
               <img src={require("../../assets/svg/premiere.svg")} />
-              <img src={require("../../assets/svg/lightroom.svg")} />
+              <img src={require("../../assets/svg/illustrator.svg")} />
             </div>
           </div>
         </Col>

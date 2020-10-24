@@ -8,7 +8,6 @@ const Home = () => (
     <SwiperCarousel />
     <About />
     <Portfolio />
-    <MyWork />
   </React.Fragment>
 );
 

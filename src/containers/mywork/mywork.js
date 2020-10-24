@@ -10,10 +10,10 @@ const Mywork = () => (
         </Col>
       </Row>
       <Row className="my_work">
-        <Col md={6} className="img_col p-0">
+        <Col xs={6} className="img_col p-0">
           <img src={require("../../assets/cr1.jpg")} />
         </Col>
-        <Col md={6} className="txt_col">
+        <Col xs={6} className="txt_col">
           <p>
             lorem ipsum i a simple dummy texty that mean snothing cau we just
             wan some text here. lorem ipsum i a simple dummy texty that mean
@@ -22,10 +22,10 @@ const Mywork = () => (
         </Col>
       </Row>
       <Row className="my_work flex-row-reverse">
-        <Col md={6} className="img_col p-0">
-          <img src={require("../../assets/cr2.jpg")} />
+        <Col xs={6} className="img_col p-0">
+          <img src={require("../../assets/cr3.jpg")} />
         </Col>
-        <Col md={6} className="txt_col">
+        <Col xs={6} className="txt_col">
           <p>
             lorem ipsum i a simple dummy texty that mean snothing cau we just
             wan some text here. lorem ipsum i a simple dummy texty that mean
@@ -34,10 +34,10 @@ const Mywork = () => (
         </Col>
       </Row>
       <Row className="my_work">
-        <Col md={6} className="img_col p-0">
-          <img src={require("../../assets/cr3.jpg")} />
+        <Col xs={6} className="img_col p-0">
+          <img src={require("../../assets/cr1.jpg")} />
         </Col>
-        <Col md={6} className="txt_col">
+        <Col xs={6} className="txt_col">
           <p>
             lorem ipsum i a simple dummy texty that mean snothing cau we just
             wan some text here. lorem ipsum i a simple dummy texty that mean

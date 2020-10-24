@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-around;
   border: 1px solid black;
-  border-radius: 24px;
+  border-radius: 20px;
   background-color: rgba(255, 255, 255, 0.8) !important;
   /* opacity: 0.9; */
   padding: 0;
@@ -24,7 +24,27 @@
   /* height: 1rem; */
   transform: scale(1.35);
   margin: 0 !important;
+  transition: 1s all;
 }
 .nav-link .active {
   border: 2px solid !important;
+}
+@keyframes zoom {
+  0% {
+    width: 0;
+    height: 0;
+  }
+  25% {
+    width: 25%;
+    height: 25%;
+  }
+  50% {
+    width: 50%;
+  }
+  75% {
+    width: 75%;
+  }
+  100% {
+    width: 100%;
+  }
 }
