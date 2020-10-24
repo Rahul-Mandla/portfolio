@@ -36,13 +36,13 @@ const SwiperCarousel = () => {
           350: {
             slidesPerView: 1,
             centeredSlides: true,
-            spaceBetween: 20,
+            spaceBetween: 100,
           },
-          650: {
-            slidesPerView: 1,
-            spaceBetween: 50,
-            centeredSlides: true,
-          },
+          // 650: {
+          //   slidesPerView: 1,
+          //   // spaceBetween: 50,
+          //   centeredSlides: true,
+          // },
           768: {
             slidesPerView: 2,
             centeredSlides: true,
