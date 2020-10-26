@@ -5,6 +5,48 @@ const PhotoShop = () => (
   <section className="gallery">
     <div className="gallery_img">
       <Link
+        to={require("../../../assets/portfolio/photoshop/banner/banner11.png")}
+        target="_blank"
+      >
+        <img
+          src={require("../../../assets/portfolio/photoshop/banner/banner11.png")}
+        />
+        <img
+          src={require("../../../assets/icons/search.png")}
+          className="search-icon"
+        />
+      </Link>
+    </div>
+    <div className="gallery_img">
+      <Link
+        to={require("../../../assets/portfolio/photoshop/banner/banner10.png")}
+        target="_blank"
+      >
+        <img
+          src={require("../../../assets/portfolio/photoshop/banner/banner10.png")}
+        />
+        <img
+          src={require("../../../assets/icons/search.png")}
+          className="search-icon"
+        />
+      </Link>
+    </div>
+    <div className="gallery_img">
+      <Link
+        to={require("../../../assets/portfolio/photoshop/banner/banner9.png")}
+        target="_blank"
+      >
+        <img
+          src={require("../../../assets/portfolio/photoshop/banner/banner9.png")}
+        />
+        <img
+          src={require("../../../assets/icons/search.png")}
+          className="search-icon"
+        />
+      </Link>
+    </div>
+    <div className="gallery_img">
+      <Link
         to={require("../../../assets/portfolio/photoshop/banner/banner1.png")}
         target="_blank"
       >

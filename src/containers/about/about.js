@@ -14,8 +14,9 @@ const About = () => (
         <Col sm={12} lg={7} className="mt-5 justify-content-center">
           <p className="bio">
             hey there, i'm prabhjot singh. <br />
-            i'm a freelance graphic designer.
-            <br />i make animated motion videos and banners
+            i'm a freelance graphic designer with six months of experience i
+            mostly work projects including promotional banners i also have
+            experience in video editing and illustrations.
           </p>
           <div className="my_skills">
             <h3>my skills</h3>
