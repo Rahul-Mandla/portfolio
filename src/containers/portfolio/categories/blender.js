@@ -4,10 +4,10 @@ const Blender = () => (
   <section className="gallery">
     <div className="gallery_img">
       <Link
-        to={require("../../../assets/portfolio/blender/blend1.png")}
+        to={require("../../../assets/portfolio/blender/blend5.webp")}
         target="_blank"
       >
-        <img src={require("../../../assets/portfolio/blender/blend1.png")} />{" "}
+        <img src={require("../../../assets/portfolio/blender/blend5.webp")} />{" "}
         <img
           src={require("../../../assets/icons/search.png")}
           className="search-icon"
@@ -16,10 +16,34 @@ const Blender = () => (
     </div>
     <div className="gallery_img">
       <Link
-        to={require("../../../assets/portfolio/blender/blend2.png")}
+        to={require("../../../assets/portfolio/blender/blend4.webp")}
         target="_blank"
       >
-        <img src={require("../../../assets/portfolio/blender/blend2.png")} />{" "}
+        <img src={require("../../../assets/portfolio/blender/blend4.webp")} />{" "}
+        <img
+          src={require("../../../assets/icons/search.png")}
+          className="search-icon"
+        />
+      </Link>
+    </div>
+    <div className="gallery_img">
+      <Link
+        to={require("../../../assets/portfolio/blender/blend1.webp")}
+        target="_blank"
+      >
+        <img src={require("../../../assets/portfolio/blender/blend1.webp")} />{" "}
+        <img
+          src={require("../../../assets/icons/search.png")}
+          className="search-icon"
+        />
+      </Link>
+    </div>
+    <div className="gallery_img">
+      <Link
+        to={require("../../../assets/portfolio/blender/blend2.webp")}
+        target="_blank"
+      >
+        <img src={require("../../../assets/portfolio/blender/blend2.webp")} />{" "}
         <img
           src={require("../../../assets/icons/search.png")}
           className="search-icon"
@@ -28,10 +52,10 @@ const Blender = () => (
     </div>{" "}
     <div className="gallery_img">
       <Link
-        to={require("../../../assets/portfolio/blender/blend3.png")}
+        to={require("../../../assets/portfolio/blender/blend3.webp")}
         target="_blank"
       >
-        <img src={require("../../../assets/portfolio/blender/blend3.png")} />{" "}
+        <img src={require("../../../assets/portfolio/blender/blend3.webp")} />{" "}
         <img
           src={require("../../../assets/icons/search.png")}
           className="search-icon"

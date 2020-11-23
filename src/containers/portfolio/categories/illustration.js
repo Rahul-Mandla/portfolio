@@ -4,11 +4,11 @@ const Illustration = () => (
   <section className="gallery">
     <div className="gallery_img">
       <Link
-        to={require("../../../assets/portfolio/illustration/illu1.png")}
+        to={require("../../../assets/portfolio/illustration/illu1.webp")}
         target="_blank"
       >
         <img
-          src={require("../../../assets/portfolio/illustration/illu1.png")}
+          src={require("../../../assets/portfolio/illustration/illu1.webp")}
         />
         <img
           src={require("../../../assets/icons/search.png")}
@@ -18,11 +18,11 @@ const Illustration = () => (
     </div>
     <div className="gallery_img">
       <Link
-        to={require("../../../assets/portfolio/illustration/illu2.png")}
+        to={require("../../../assets/portfolio/illustration/illu2.webp")}
         target="_blank"
       >
         <img
-          src={require("../../../assets/portfolio/illustration/illu2.png")}
+          src={require("../../../assets/portfolio/illustration/illu2.webp")}
         />
         <img
           src={require("../../../assets/icons/search.png")}
@@ -32,11 +32,11 @@ const Illustration = () => (
     </div>
     <div className="gallery_img">
       <Link
-        to={require("../../../assets/portfolio/illustration/illu3.png")}
+        to={require("../../../assets/portfolio/illustration/illu3.webp")}
         target="_blank"
       >
         <img
-          src={require("../../../assets/portfolio/illustration/illu3.png")}
+          src={require("../../../assets/portfolio/illustration/illu3.webp")}
         />
         <img
           src={require("../../../assets/icons/search.png")}
@@ -46,11 +46,11 @@ const Illustration = () => (
     </div>
     <div className="gallery_img">
       <Link
-        to={require("../../../assets/portfolio/illustration/illu4.png")}
+        to={require("../../../assets/portfolio/illustration/illu4.webp")}
         target="_blank"
       >
         <img
-          src={require("../../../assets/portfolio/illustration/illu4.png")}
+          src={require("../../../assets/portfolio/illustration/illu4.webp")}
         />
         <img
           src={require("../../../assets/icons/search.png")}
